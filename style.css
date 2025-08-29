@@ -18,7 +18,7 @@ body {
 }
 
 .banner-img {
-  width: 80px;      /* smaller width for a tiny picture */
+  width: 200px;      /* smaller width for a tiny picture */
   max-width: 100%;   /* keeps it responsive on very small screens */
   height: auto;      /* maintains proportions */
   display: block;    /* ensures proper centering */
