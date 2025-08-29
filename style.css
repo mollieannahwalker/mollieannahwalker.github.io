@@ -13,18 +13,15 @@ body {
   line-height: 1.6;
 }
 
-/* Banner Image - Logo Style */
-.banner {
-  text-align: center;
-  margin: 20px 0;
+.banner-img {
+  width: 100px;      /* smaller width for a tiny picture */
+  max-width: 100%;   /* keeps it responsive on very small screens */
+  height: auto;      /* maintains proportions */
+  display: block;    /* ensures proper centering */
+  margin: 20px auto; /* centers horizontally and adds vertical spacing */
+  border-radius: 8px; /* optional: rounded corners */
 }
 
-.banner-img {
-  width: 50px;     /* fixed width like a logo */
-  max-width: 100%;  /* makes it responsive on small screens */
-  height: auto;     /* keeps proportions */
-  border-radius: 8px;
-}
 
 
 header h1 {
