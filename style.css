@@ -13,16 +13,19 @@ body {
   line-height: 1.6;
 }
 
-/* Header / Banner */
-header {
-  background: url("banner.png") no-repeat center center/cover;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+/* Banner Image - Logo Style */
+.banner {
+  text-align: center;
+  margin: 20px 0;
 }
+
+.banner-img {
+  width: 200px;     /* fixed width like a logo */
+  max-width: 100%;  /* makes it responsive on small screens */
+  height: auto;     /* keeps proportions */
+  border-radius: 8px;
+}
+
 
 header h1 {
   font-size: 3rem;
