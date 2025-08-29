@@ -3,24 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
+  <title>My Writing Website</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 20%;
-      background-color: #f5f5f5;
+      background-color: #f9f9f9;
       color: #333;
     }
-    h1 {
+
+    /* Banner */
+    header {
+      background: url("banner.jpg") no-repeat center center/cover;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+
+    header h1 {
       font-size: 3rem;
-      color: #007acc;
+      margin: 0;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff9800;
+    }
+
+    /* Main content */
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <h1>Hello, World! 🌍</h1>
-  <p>Welcome to my first GitHub Pages site.</p>
+  <!-- Banner -->
+  <header>
+    <h1>Welcome to My Writing Website</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="stories.html">Stories</a>
+    <a href="essays.html">Essays</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h2>Hello and Welcome!</h2>
+    <p>
+      This is the starting point for my writing website.  
+      Use the navigation bar above to explore different sections like stories, essays, and the blog.  
+      More content coming soon!
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Writing Website</p>
+  </footer>
 </body>
 </html>
-
