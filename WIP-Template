@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work in Progress</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wip-container">
+    <h1>🚧 Work in Progress 🚧</h1>
+    <img src="Main-Assets/WIP.jpeg" alt="WIP" class="nav-img">
+    <p>This page isn’t ready yet, but something magical is coming soon ✨</p>
+    <a href="index.html" class="back-home">← Back to Home</a>
+  </main>
+</body>
+</html>
