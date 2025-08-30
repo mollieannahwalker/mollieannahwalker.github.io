@@ -1,28 +1,16 @@
-/* Apply Marck Script to headers */
-h1 {
-  font-family: 'Marck Script', cursive;
-  font-size: 3rem;
-  color: #333; /* dark gray text */
-  text-align: center;
-  margin-top: 2rem;
-}
-
-/* Basic body styling */
-body {
-  font-family: Arial, sans-serif; /* fallback font for normal text */
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #444;
-  background-color: #fdfdfd;
+/* General Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Center main content */
-main {
-  max-width: 700px;
-  margin: 2rem auto;
-  padding: 1rem;
+/* Body */
+body {
+ .marck-script-regular {
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
   background-color: #ffffff; /* White background */
   color: #333; /* Dark gray text for readability */
@@ -40,33 +28,10 @@ main {
 
 
 
-/* Apply Marck Script to headers */
-h1 {
-  font-family: 'Marck Script', cursive;
+header h1 {
   font-size: 3rem;
-  color: #333; /* dark gray text */
-  text-align: center;
-  margin-top: 2rem;
+  font-weight: 600;
 }
-
-/* Basic body styling */
-body {
-  font-family: Arial, sans-serif; /* fallback font for normal text */
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #444;
-  background-color: #fdfdfd;
-  margin: 0;
-  padding: 0;
-}
-
-/* Center main content */
-main {
-  max-width: 700px;
-  margin: 2rem auto;
-  padding: 1rem;
-}
-
 
 /* Navigation */
 nav {
@@ -137,8 +102,8 @@ footer {
 .site-header {
   text-align: center;
   padding: 20px;
-  background-color: #945eab; /* purple */
-  color: #fafaf7; /* white */
+  background-color: #90ee90; /* light green */
+  color: #6a0dad; /* purple */
 }
 
 .site-header h1 {
@@ -188,4 +153,5 @@ footer {
   text-align: center;
   margin: 40px 0;
 }
+
 
