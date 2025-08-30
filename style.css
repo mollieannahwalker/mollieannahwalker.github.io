@@ -102,8 +102,8 @@ footer {
 .site-header {
   text-align: center;
   padding: 20px;
-  background-color: #90ee90; /* light green */
-  color: #945eab; /* purple */
+  background-color: #945eab; /* purple */
+  color: #fafaf7; /* white */
 }
 
 .site-header h1 {
