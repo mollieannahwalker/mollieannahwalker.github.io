@@ -20,7 +20,7 @@ body {
 }
 
 .banner-img {
-  width: 200px;     /* fixed width like a logo */
+  width: 300px;     /* fixed width like a logo */
   max-width: 100%;  /* makes it responsive on small screens */
   height: auto;     /* keeps proportions */
   border-radius: 8px;
