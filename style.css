@@ -112,7 +112,7 @@ footer {
 
 /* Subtext styling */
 .subtext {
-  text-align: left;    /* keeps the text aligned left, not centered */
+  text-align: right;    /* keeps the text aligned left, not centered */
   margin-left: 50px;   /* pushes the text a bit to the right */
   max-width: 600px;    /* optional: keeps the text from stretching too wide */
   font-size: 18px;     /* adjust size as you like */
