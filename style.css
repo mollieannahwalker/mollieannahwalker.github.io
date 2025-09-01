@@ -109,6 +109,7 @@ footer {
 .center-text {
   text-align: center;   /* makes the paragraph text centered */
   font-size: 18px;      /* adjust size as you like */
+  margin-top: 10px;      /* adds space above this block */
   margin-bottom: 10px;  /* space before next content */
 }
 
