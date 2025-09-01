@@ -12,6 +12,14 @@ body {
   font-style: normal;
 }
 
+/* Right-aligned text with different font */
+.right-text {
+  width: 300px;
+  float: right;
+  margin: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Overlock", sans-serif;  /* only affects this section */
 
 
 
