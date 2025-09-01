@@ -111,9 +111,9 @@ footer {
 }
 
 /* Right-aligned text block */
-.right-text {
+.center-text {
   width: 400px;        /* set how wide the block should be */
-  float: right;        /* makes it float to the right side */
+  float: center;        /* makes it float to the right side */
   margin: 50px;        /* spacing around the block */
   font-size: 18px;     /* adjust as needed */
   line-height: 1.5;    /* improves readability */
