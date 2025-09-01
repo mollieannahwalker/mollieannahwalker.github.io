@@ -95,14 +95,14 @@ footer {
 
 .site-header h1 {
   font-size: 2.5rem;
-  margin: 5;
+  margin: 10;
 }
 
 /* Centered text styling */
 .center-text {
   text-align: center;   /* makes the paragraph text centered */
   font-size: 18px;      /* adjust size as you like */
-  margin-bottom: 20px;  /* space before next content */
+  margin-bottom: 10px;  /* space before next content */
 }
 
 
