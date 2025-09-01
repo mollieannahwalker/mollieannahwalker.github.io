@@ -19,10 +19,12 @@ body {
   margin-bottom: 20px;
   font-family: "Quicksand", sans-serif;
 
-  background-color: #f0f0f0;  /* light gray background */
-  padding: 15px;              /* space inside the box */
-  border-radius: 10px;        /* rounded corners */
-  display: inline-block;      /* keeps background tight around text */
+   background-color: #f0f0f0;
+  padding: 15px 25px;
+  border-radius: 10px;
+  display: inline-block;   /* shrink-wrap box */
+  margin-left: auto;       /* these two lines */
+  margin-right: auto;      /* keep it centered */
 }
 
 
