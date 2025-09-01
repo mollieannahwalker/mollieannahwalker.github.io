@@ -12,7 +12,7 @@ body {
   font-style: normal;
 }
 
-/* Centered text with Playwrite Deutschland Grundschrift */
+/* Centered text with Fuzzy Bubbles */
 .center-text {
   text-align: center;
   font-size: 25px;
@@ -108,7 +108,7 @@ footer {
 /* Centered text styling */
 .center-text {
   text-align: center;   /* makes the paragraph text centered */
-  font-size: 18px;      /* adjust size as you like */
+  font-size: 25px;      /* adjust size as you like */
   margin-top: 10px;      /* adds space above this block */
   margin-bottom: 10px;  /* space before next content */
 }
