@@ -12,15 +12,6 @@ body {
   font-style: normal;
 }
 
-/* Center text with different font */
-.center-text {
-  width: 300px;
-  float: right;
-  margin: 20px;
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: "Overlock", sans-serif;  /* only affects this section */
-
 
 
 
