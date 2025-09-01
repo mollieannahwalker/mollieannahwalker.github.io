@@ -110,13 +110,13 @@ footer {
   margin: 0;
 }
 
-/* Subtext styling */
-.subtext {
-  text-align: right;    /* keeps the text aligned left, not centered */
-  margin-left: 50px;   /* pushes the text a bit to the right */
-  max-width: 600px;    /* optional: keeps the text from stretching too wide */
-  font-size: 18px;     /* adjust size as you like */
-  line-height: 1;
+/* Right-aligned text block */
+.right-text {
+  width: 300px;        /* set how wide the block should be */
+  float: right;        /* makes it float to the right side */
+  margin: 20px;        /* spacing around the block */
+  font-size: 18px;     /* adjust as needed */
+  line-height: 1.5;    /* improves readability */
 }
 
 /* Banner Image */
