@@ -12,8 +12,8 @@ body {
   font-style: normal;
 }
 
-/* Right-aligned text with different font */
-.right-text {
+/* Center text with different font */
+.center-text {
   width: 300px;
   float: right;
   margin: 20px;
