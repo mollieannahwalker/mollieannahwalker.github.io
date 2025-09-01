@@ -12,6 +12,13 @@ body {
   font-style: normal;
 }
 
+/* Centered text with Playwrite Deutschland Grundschrift */
+.center-text {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Playwrite Deutschland Grundschrift', cursive;
+}
 
 
 
