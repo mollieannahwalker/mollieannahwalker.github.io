@@ -16,7 +16,7 @@
 .center-text {
   display: inline-block;     /* shrink-wrap to content */
   text-align: center;        /* center the lines inside */
-  background: #78608a;       /* your highlight */
+  background: #ffffff;       /* your highlight */
   padding: 16px 24px;
   border: 1px solid #ddd;
   border-radius: 10px;
