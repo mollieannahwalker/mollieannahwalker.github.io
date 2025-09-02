@@ -20,10 +20,10 @@
   font-family: 'Homemade Apple', cursive;  /* special font just here */
   color: #588564; /* green */
 
-   border: 2px solid #78608a;   /* thickness | style | color */
+   border: 20px solid #78608a;   /* thickness | style | color */
   display: inline-block;       /* shrink box to fit text */
   padding: 10px 20px;          /* space inside the box */
-  border-radius: 8px;          /* optional rounded corners */
+  border-radius: 0px;          /* optional rounded corners */
 }
 }
 
