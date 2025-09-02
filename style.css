@@ -16,16 +16,17 @@
 .center-text {
   text-align: center;
   font-size: 18px;
-    margin: 20px auto;          /* auto left/right centers the box */
-  font-family: 'Homemade Apple', cursive;  /* special font just here */
-  color: #588564; /* green */
+  margin: 20px auto;          /* auto left/right will now work */
+  font-family: 'Homemade Apple', cursive;
+  color: #588564;
 
-   border: 20px solid #78608a;   /* thickness | style | color */
-  display: inline-block;       /* shrink box to fit text */
-  padding: 10px 20px;          /* space inside the box */
-  border-radius: 0px;          /* optional rounded corners */
+  border: 4px solid #78608a;  /* thinner border */
+  display: block;             /* <-- change from inline-block */
+  width: fit-content;         /* shrink to fit the text */
+  padding: 10px 20px;
+  border-radius: 0px;
 }
-}
+
 
 header h1 {
   font-size: 3rem;
