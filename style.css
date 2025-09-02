@@ -9,14 +9,14 @@
 .center-text {
   text-align: center;   /* makes the paragraph text centered */
   font-size: 18px;      /* adjust size as you like */
-  margin-bottom: 20px;  /* space before next content */
+  margin-bottom: 10px;  /* space before next content */
 }
 
 /* Centered text with its own font */
 .center-text {
   text-align: center;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: 'Homemade Apple', cursive;  /* special font just here */
   color: #588564; /* green */
 }
