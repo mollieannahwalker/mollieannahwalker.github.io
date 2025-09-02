@@ -5,7 +5,12 @@
   font-family: 'Homemade Apple', cursive;
 }
 
-
+/* Centered text styling */
+.center-text {
+  text-align: center;   /* makes the paragraph text centered */
+  font-size: 18px;      /* adjust size as you like */
+  margin-bottom: 20px;  /* space before next content */
+}
 
 header h1 {
   font-size: 3rem;
