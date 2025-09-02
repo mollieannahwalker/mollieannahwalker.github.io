@@ -136,9 +136,9 @@ footer {
 .nav-img {
   width: 180px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0px;
   transition: transform 0.3s ease;
-  border: 10px solid #588564;
+  border: 20px double #588564;
   border-radius: 10px;
 }
 
