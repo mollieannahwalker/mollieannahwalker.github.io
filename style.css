@@ -138,7 +138,7 @@ footer {
   height: auto;
   border-radius: 0px;
   transition: transform 0.3s ease;
-  border: 20px double #588564;
+  border: 20px solid #588564;
   border-radius: 10px;
 }
 
