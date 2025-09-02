@@ -19,7 +19,12 @@
   margin-bottom: 10px;
   font-family: 'Homemade Apple', cursive;  /* special font just here */
   color: #588564; /* green */
-   font-weight: bold;   /* makes text bold */
+
+   border: 2px solid #78608a;   /* thickness | style | color */
+  display: inline-block;       /* shrink box to fit text */
+  padding: 10px 20px;          /* space inside the box */
+  border-radius: 8px;          /* optional rounded corners */
+}
 }
 
 header h1 {
