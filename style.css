@@ -19,6 +19,7 @@
   margin-bottom: 10px;
   font-family: 'Homemade Apple', cursive;  /* special font just here */
   color: #588564; /* green */
+   font-weight: bold;   /* makes text bold */
 }
 
 header h1 {
