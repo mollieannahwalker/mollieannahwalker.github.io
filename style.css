@@ -5,39 +5,33 @@
   font-family: 'Homemade Apple', cursive;
 }
 
-/* Centered text styling */
-.center-text {
-  text-align: center;   /* makes the paragraph text centered */
-  font-size: 18px;      /* adjust size as you like */
-  margin-bottom: 10px;  /* space before next content */
-}
-
-/* Centered text with its own font */
+/* Container for image + text */
 .center-box {
   display: flex;               /* puts items side by side */
   align-items: center;         /* vertical alignment */
-  justify-content: center;     /* centers the whole box on the page */
-  margin: 20px auto;           /* centers the container itself */
+  justify-content: center;     /* centers the whole unit */
+  margin: 20px auto;           /* centers the container */
 }
+
+/* Image on the left */
 .side-image {
   width: 60px;                 /* adjust image size */
   height: auto;
   margin-right: 15px;          /* space between image and text */
 }
+
+/* Text with border */
 .center-text {
-  text-align: center;
+  text-align: center;          /* centers text inside the box */
   font-size: 18px;
-  margin: 20px auto;          /* auto left/right will now work */
   font-family: 'Homemade Apple', cursive;
   color: #588564;
 
-  border: 8px solid #78608a;  /* thinner border */
-  display: block;             /* <-- change from inline-block */
-  width: fit-content;         /* shrink to fit the text */
+  border: 8px solid #78608a;   /* nice thick border */
+  display: inline-block;       /* keeps border tight to text */
   padding: 10px 20px;
-  border-radius: 0px;
+  border-radius: 0px;          /* square corners (change if you want rounded) */
 }
-
 
 header h1 {
   font-size: 3rem;
