@@ -15,7 +15,7 @@
 
 /* Image on the left */
 .side-image {
-  width: 60px;                 /* adjust image size */
+  width: 120px;                 /* adjust image size */
   height: auto;
   margin-right: 15px;          /* space between image and text */
 }
