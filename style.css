@@ -13,6 +13,17 @@
 }
 
 /* Centered text with its own font */
+.center-box {
+  display: flex;               /* puts items side by side */
+  align-items: center;         /* vertical alignment */
+  justify-content: center;     /* centers the whole box on the page */
+  margin: 20px auto;           /* centers the container itself */
+}
+.side-image {
+  width: 60px;                 /* adjust image size */
+  height: auto;
+  margin-right: 15px;          /* space between image and text */
+}
 .center-text {
   text-align: center;
   font-size: 18px;
