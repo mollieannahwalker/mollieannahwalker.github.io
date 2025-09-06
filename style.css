@@ -163,3 +163,18 @@ footer {
   text-align: center;
   margin: 40px 0;
 }
+
+/* Title font (Homemade Apple) */
+.title-font,
+.site-header h1,
+main h2 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+/* Body font (Comic Neue) */
+.body-font,
+main p,
+.center-text,
+footer p {
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
