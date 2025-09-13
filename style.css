@@ -171,10 +171,10 @@ main h2 {
   font-family: 'Homemade Apple', cursive;
 }
 
-/* Body font (Comic Neue) */
+/* Body font (HA) */
 .body-font,
 main p,
 .center-text,
 footer p {
-  font-family: 'Comic Neue', cursive, sans-serif;
+  font-family: 'Homemade Apple', cursive;
 }
