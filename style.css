@@ -1,7 +1,10 @@
 /* Header spacing */
 .site-header {
   text-align: center;
-  margin-bottom: 24px;
+  padding: 20px;
+  margin-bottom: 24px;              /* keep the spacing */
+  background-color: #588564;        /* green */
+  color: #f0efe9;                   /* off-white */
   font-family: 'Homemade Apple', cursive;
 }
 
@@ -104,20 +107,11 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
 }
-/* Site Header */
-.site-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #588564; /* green */
-  color: #f0efe9; /* white */
-}
 
 .site-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 30;
+  font-size: 2.5rem;    /* current on-screen size (more specific selector) */
+  margin-bottom: 30px;  /* add the px so it actually applies */
 }
-
-
 
 /* Banner Image */
 .banner {
@@ -148,10 +142,9 @@ footer {
 .nav-img {
   width: 180px;
   height: auto;
-  border-radius: 0px;
   transition: transform 0.3s ease;
   border: 20px double #588564;
-  border-radius: 0px;
+  border-radius: 0;   /* single, explicit value */
 }
 
 .nav-img:hover {
